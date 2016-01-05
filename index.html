@@ -60,7 +60,7 @@
         <ul>
           <li class="fragment">No one here will learn HTML/CSS in one night.</li>
           <li class="fragment">You can take classes everywhere and at any price. We are your study group, not your class.</li>
-          <li class="fragment">Whether it's your first session or not, everyone is on equal footing</li>
+          <li class="fragment">Whether it's your first session or not, everyone is on equal footing.</li>
           <li class="fragment">Stick with it.</li>
         </ul>    
       </section>
@@ -69,7 +69,7 @@
           <h3>Meet Some #LadyDevs</h3>
         </section>
         <section>
-          <img src="images/Laura-Shields-dino.jpg" alt="Laura Shields" align="middle" height="288" width="400"/>
+          <img src="images/Laura-Shields2.jpg" alt="Laura Shields" align="middle" height="288" width="288"/>
           <h4>Laura Shields</h4>
           <p>Software Engineer, The Nerdery - Chicago</p>
           <p><em>"Tangible dates lead to tangible results. 'Someday' leads to regret. Plan your dreams now. With spreadsheets."</em></p>
@@ -122,6 +122,8 @@
             <h3>What is HTML?</h3>
             <p class="fragment"><strong>H</strong>yper<strong> T</strong>ext <strong>M</strong>arkup <strong>L</strong>anguage</p>
             <p class="fragment">***</p>
+            <p class="fragment">It is not a programming language, it is a scripting language</p>
+            <p class="fragment">***</p>
             <p class="fragment">HTML is used for the placement or meaning of the content - header, paragraph, list versus its <em>style</em> (font, color, font size)</p>
             <p class="fragment">***</p>
             <p class="fragment">Text is marked with a "tag" that gives it a purpose</p>
@@ -131,31 +133,31 @@
           <section id="HTML Syntax Basics">
             <section>
               <h3>HTML Syntax highlights</h3>
-              <br>
-              <br>
+                <br>
+                <p align="center">Reminder: Use Free Online Courses to Explore These in Depth!</p>
+                <p align="center">***</p>
                 <ol>
                   <li class="fragment">Meta Data - What is it? Why is it Important?</li>
                   <li class="fragment">Some Basic Tag Syntax</li>
                   <li class="fragment">Inline formatting</li>
                   <br>
-                  <p align="center">***</p>
-                  <p align="center">Reminder: Use Free Online Courses to Explore These in Depth!</p>
+                  
                 </ol>
             </section>
           </section>
           <section id="Meta DAta">
               <h3>Meta Data</h3>
-              <p>Meta Data is invisible to the reader but interacts with the reader's browser to supply necessary utility information.</p>
+              <p>Meta Data is invisible to the reader but gives the brower important information about how to interpret the HTML on the page.</p>
               <pre><code>&lt;!DOCTYPE html&gt;
-                &lt;html&gt;
-                &lt;heading&gt;Your Page Title Goes Here, But is Not Visible To Readers"&lt;/heading&gt;
-                &lt;body&gt;
-
+      &lt;html&gt;
+          &lt;heading&gt;Your (invisible) page title goes here
+          &lt;/heading&gt;
+              &lt;body&gt;
                 &lt;h1&gt;My First Heading&lt;/h1&gt;
                 &lt;p&gt;This is the first paragraph. All visible page content is nested inside the opening and closing body tags.&lt;/p&gt;
 
-                &lt;/body&gt;
-                &lt;/html&gt</code></pre>
+              &lt;/body&gt;
+          &lt;/html&gt</code></pre>
             </section>
 
           <section id="HTML Tags">
@@ -180,7 +182,7 @@
           </section>
           <section id="inline formatting">
                 <h3>Inline Formatting</h3>
-                <p>Inline formatting specifies the <em>look</em> of the element. While it can be done in HTML, it <em>should</em> be done in CSS whenever possible because it is easier to maintain</p>
+                <p>Inline formatting specifies the <em>look</em> of the element. While it can be done in HTML, it <em>should</em> be done in CSS whenever possible because it is easier to maintain.</p>
                 <br>
                 <pre><code>&lt;H3 style="color:blue;"&gt; My Title Should Be Blue &lt;/h3&gt; 
                 </code></pre>
@@ -197,36 +199,41 @@
                   <li class="fragment">Be case sensitive/be consistent:
                     <br> 
                     &lt;p&gt;&lt;/p&gt;     not     &lt;H3&gt;&lt;/h3&gt;</li>
-                    <li class="fragment">Indent nested tags (such as when indenting outlines):
+                    <li class="fragment">Indent nested tags (such as when indenting ordered lists):
                       <pre><code>
-                        &lt;ol&gt;
+                      &lt;ol&gt;
                         &lt;li&gt;list item 1.&lt;/li&gt;
                         &lt;li&gt;list item 2.&lt;/li&gt;
-                        &lt;/ol&gt;;</code></pre>
+                      &lt;/ol&gt;;</code></pre>
                     </li>
                   </ol>
             </section>  
             <section>
                   <h3>Basic HTML Best Practices</h3>
-                  <h5>A Couple of Final Thoughts . . .</h5>
+                  <h5>A Couple of Final Thoughts about HTML . . .</h5>
                   <br>
                   <p>Don't try to mash your code together. Use enough line breaks for readability and clarity.</p>
                   <p align="center">***</p>
                   <p>Validate often - save your work and see how it looks in-browser as you progress.</p>
+                  <p align="center">***</p>
+                  <p align="center">Next: Debugging!</p>
             </section>
           </section>
 
             <section id="Debugging">
                 <h3>Debugging Tools and Online Documentation</h3>
                 <p >There are many tools you can use. Some are built into your text editor and some are separate. Here are some resources.</p>
-                <ul>
-                  <li class="fragment">Developer tools in Chrome</li>
-                  <li class="fragment">W3C HTML Validator</li>
+          <ul>
+              <li class="fragment">Chrome Developer Tools (Ctrl+Shift+I or Option+Shift+I)
+              </li>
+          </ul>
+          </li>
+                  <li class="fragment"><a href=https://validator.w3.org/> W3C HTML Validator </a> </li>
                   <li class="fragment">Mozilla Developer Network (MDN)</li>
                   <li class="fragment">Remember to reach out to mentors through our Slack channel, too!</li>
                 </ul>
                 <br>
-                <h6 class="fragment"> Lets Look at an example:</h6>  <a class="fragment" href="http://www.tiag.com">"Told in a Garden"</a>
+                <h6 class="fragment"> Lets Look at an example:</h6>  <a class="fragment" href="http://www.tiag.com">Told in a Garden</a>
             </section>                           
             <section id="practice">
                   <h3>Time to Practice!</h3>
@@ -234,10 +241,10 @@
             </section>
             <section id="CSS Overview">
                 <h3>CSS Overview</h3>
-                    <p class="fragment"><strong>C</strong>ascading <strong>S</strong>tyle <strong>S</strong>heets (CSS) </p>
-                    <p align="center">***</p>
-                    <p class="fragment">CSS does the heaving lifting with regard to the page formatting.</p>
-                    <p align="center">***</p>
+                    <p class="fragment"><strong>C</strong>ascading <strong>S</strong>tyle <strong>S</strong>heets (CSS) 
+                      <br>***</p>
+                    <p class="fragment">CSS does the heavy lifting with regard to the page formatting.
+                    <br>***</p>
                     <p class="fragment">CSS controls how elements <em>look</em>, including font color, size, and other details that pertain to all elements in an HTML document that are the same type.</p>
             </section>
 
@@ -246,50 +253,85 @@
                 <h3>CSS Syntax Basics</h3>
                  <h5>Vocabulary</h5>
                     <ol>
-                      <li>Element - a bit of HTML to be manipulated, like a paragraph (&lt;p&gt;&lt;/p&gt;)</li>
-                      <li>Selector - in CSS, that which points to the HTML element to be styled.</li>
-                      <li>property - describes how an element is modified, i.e. color, size, or font</li>
-                      <li>value - the specific application of the property, i.e. red, 12 pt, or Times New Roman</li>
-                      <li>Class selector - differentiates between similar elements, i.e. Summary paragraphs vs body paragraphs.  Syntax is [element]<em>.class</em></li>
-                      <li>id selector - specifies to an even greater level of detail a specific element. Syntax is Syntax is [element]<em>#id</em></li>
-                      <li>Box model - a visual frame of reference for margins around elements</li>
+                      <li><u>Element</u> - a bit of HTML to be manipulated, like a paragraph (&lt;p&gt;&lt;/p&gt;)</li>
+                      <li><u>Selector</u> - in CSS, that which points to the HTML element to be styled.</li>
+                      <li><u>Property</u> - describes how an element is modified, i.e. color, size, or font</li>
+                      <li><u>Value</u> - the specific application of the property, i.e. red, 12 pt, or Times New Roman</li>
                     </ol>
               </section>
+            <section id="syntax basics2">
+              <section>
+                <h3>CSS Syntax Basics</h3>
+                 <h5>Vocabulary (Continued)</h5>
+                    <ol>
+                      <li><u>Class selector</u> - differentiates between similar elements, i.e. Summary paragraphs vs body paragraphs.  Syntax is [element]<em>.class</em></li>
+                      <li><u>ID selector</u> - specifies to an even greater level of detail a specific element. Syntax is [element]<em>#id</em></li>
+                      <li><u>Box model</u> - a visual frame of reference for margins around elements</li>
+                    </ol>
+              </section>
+            </section>
               <section>
                 <h3>Basic CSS Rule Syntax</h3>
-                <img src="images/anatomy-of-a-css-rule.gif" alt="CSS Rule Gif" width="75%" height="75%"/>
+                <img src="images/anatomy-of-a-css-rule.gif" alt="CSS Rule Gif" width="65%" height="65%"/>
                 <p>Image Credit:</p> <a href="http://www.learnwebcode.com">LearnWebCode.com</a>
               </section>
               <section>
                     <h3>Selectors</h3>
-                    <img src="images/cssGraphicSelectors.png" alt="Graphic Selectors" width="75%" height="75%"/>
+                    <img src="images/cssGraphicSelectors.png" alt="Graphic Selectors" width="65%" height="65%"/>
                     <p>Image Credit:</p> <a href="http://www.fiercegirldesign.com">Fiercegirldesign.com</a>
               </section>
               <section>
                     <h3>The Box Model</h3>
-                    <img src="images/boxdim.gif" alt="Box Model" align="middle" height="110%" width="110%"</a>
+                    <img src="images/boxdim.gif" alt="Box Model" align="middle" height="75%" width="75%"</a>
               </section>
               <section>
                     <h3>Another Way to Look at the Box Model</h3>
-                    <img src="images/adamkayce-web-designer-css-3d-box-model.png" alt="Box Model2"</a>
+                    <img src="images/adamkayce-web-designer-css-3d-box-model.png" alt="Box Model2" height="65%" width="65%"</a>
               </section>
           </section>
+  <section id="Connecting HTML to CSS">
+    <section>
+      <h3>Connecting Your HTML Code to Your CSS Stylesheet</h3>
+      <p> The Meta Data Section of your HTML doc tells the browser to look for a corresponding stylesheet:</p>
+      <pre><code>
+        &lt;!DOCTYPE html&gt;
+        &lt;html&gt;
+          &lt;head&gt;
+          &lt;link type="text/css" rel="stylesheet" href="stylesheet.css"/&gt;
+            &lt;title&gt;Invisible Page Title&lt;/title&gt;
+          &lt;/head&gt;
+          &lt;body&gt;
+          &lt;h3&gt;heading content&lt;/h3&gt;
+          &lt;p&gt;Some Content here&lt;/p&gt;
+          &lt;/body&gt;
+        &lt;/html&gt;
+      </code></pre>
+    </section>
+  </section>
+<section id="Connecting HTML to CSS">
+    <section>
+      <h3>Connecting Your HTML Code to Your CSS Stylesheet</h3>
+      <p> The CSS Stylesheet (href="stylesheet.css" in the previous slide) describes how the heading and paragraph will look:</p>
+      <pre><code>
+body {
+  background-color: #b7d1c4
+}
 
-<!--
-    <section id="The Rabbit Hole">
-        <h3>The Rabbit Hole - A Preview of Future Lessons </h3>
-        <p>Coding in raw CSS can get a little tricky, so other tools have been developed to make this process easier. These are vocabulary words you may hear for the first time tonight but we will spend more time on them later in the year.</p>
-        <ul>
-            <li><strong>Preprocessor</strong> - a utility program that aids in compatibility between the delivery method (CSS/HTML) and the receiving program (i.e. Chrome vs FireFox). 
-            <li><strong>LESS</strong> and <strong>Sass</strong> are two such utilities.</li>
-            <li>They allow you to specify elements that are easier for a person to read and identify - @FacebookBlue instead of its actual hex color (i.e. #000000)</li>
-        </ul>
-    </section> 
-  -->       
-
+h3 {
+  font-family: Verdana;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  color: #acd1b2;
+}
+      </code></pre>
+    </section>
+  </section>
   <section id="CSS Practice">
     <section>
-      <p>placeholder - css practice worksheet?</p>
+      <h3>Practice with CSS</h3>
+            <img src="images/beach.jpg" alt="Sandra Bullock In The Net">
     </section>
   </section>
   <section id="2016 project">
@@ -299,7 +341,7 @@
       <ul>
         <li class"fragment">Build a personal web page</li>
         <li class"fragment">Use Git Hub to host and publish your page</li>
-        <li class"fragment">Add Bells and Whistles to your page throughout the year </li>
+        <li class"fragment">Add bells and whistles to your page throughout the year </li>
       </ul>
     </section>
   </section>
@@ -308,8 +350,8 @@
     <section>
       <h3>Where Do We Go From Here?</h3>
       <br>
-      <p><strong>Next month: Introduction To Git Hub</strong></p>
-      <p><strong>March: Deploying your web site</strong></p>
+      <p><strong>Next month: Introduction To Command Line</strong></p>
+      <p><strong>March: GitHub Basics</strong></p>
     <br>
     <h4>In the Mean Time...</h4>
       <ol>
