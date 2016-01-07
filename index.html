@@ -79,11 +79,10 @@
           <img src="images/ADuncan.jpg" alt="Alisa" align="middle" height="288" width="288"/>
           <h4>J. Alisa Duncan</h4>
           <p>Senior Software Engineer, Engaged Technologies - Kansas City</p>  
-          <p>"I know it’s really difficult to make extra time when switching careers, but spending time outside of class to work on personal projects, volunteer projects, or contributing to open-source projects will provide a lot of experience for people who can’t take time off from a real job to do an internship."</p>
-          <p>Image Source: LinkedIn</p>
         </section>
         <section>
           <h3>... And Your Mentors for Tonight!</h3>
+          <img src="images/marvelLadies.jpg" alt="Women of Marvel" align "middle">
         </section>
       </section>
       <section id="Agenda/Objectives">
@@ -137,8 +136,7 @@
                   <li class="fragment">Meta Data - What is it? Why is it Important?</li>
                   <li class="fragment">Some Basic Tag Syntax</li>
                   <li class="fragment">Inline formatting</li>
-                  <br>
-                  
+                  <br> 
                 </ol>
             </section>
           </section>
@@ -147,8 +145,8 @@
               <p>Meta Data is invisible to the reader but gives the browser important information about how to interpret the HTML on the page.</p>
               <pre><code>&lt;!DOCTYPE html&gt;
       &lt;html&gt;
-          &lt;heading&gt;Your page title goes here - shows on the browser tab
-          &lt;/heading&gt;
+          &lt;head&gt;Meta Data Goes Here &lt;/head&gt;
+          &lt;title&gt;Brower tab title here &lt;/title&gt;
               &lt;body&gt;
                 &lt;h1&gt;My First Heading&lt;/h1&gt;
                 &lt;p&gt;This is the first paragraph. All visible page content is nested inside the opening and closing body tags.&lt;/p&gt;
@@ -161,7 +159,7 @@
               <section>
                 <h3>Basic Tags</h3>
                 <p>Paragraph:</p><pre><code>&lt;p&gt; content goes here &lt;/p&gt;</code></pre>
-                <p>Headings (1-6):</p><pre><code>&lt;H3&gt; header content goes here &lt;/H3&gt;</code></pre>
+                <p>Headings (1-6):</p><pre><code>&lt;h3&gt; header content goes here &lt;/h3&gt;</code></pre>
                 <p>Ordered lists:</p><pre><code>&lt;ol&gt; <--"ol" designates the start of an ordered list
                 &lt;li&gt;list item 1 here&lt;/li&gt;                                              
                 &lt;li&gt;list item 2 here&lt;/li&gt;
@@ -181,7 +179,7 @@
                 <h3>Inline Formatting</h3>
                 <p>Inline formatting specifies the <em>look</em> of the element. While it can be done in HTML, it <em>should</em> be done in CSS whenever possible because it is easier to maintain.</p>
                 <br>
-                <pre><code>&lt;H3 style="color:blue;"&gt; My Title Should Be Blue &lt;/h3&gt; 
+                <pre><code>&lt;h3 style="color:blue;"&gt; My Title Should Be Blue &lt;/h3&gt; 
                 </code></pre>
                 <br>
                 <p>becomes. . . </p>
@@ -230,7 +228,7 @@
                   <li class="fragment">Remember to reach out to mentors through our Slack channel, too!</li>
                 </ul>
                 <br>
-                <h6 class="fragment"> Lets Look at an example:</h6>  <a class="fragment" href="http://www.tiag.com">Told in a Garden</a>
+                <h6 class="fragment"> Lets Look at an example:</h6>  <a class="fragment" href="http://www.tiag.com" target="_blank">Told in a Garden</a>
             </section>                           
             <section id="practice">
                   <h3>Time to Practice!</h3>
@@ -251,7 +249,7 @@
                  <h5>Vocabulary</h5>
                     <ol>
                       <li><u>Element</u> - a bit of HTML to be manipulated, like a paragraph (&lt;p&gt;&lt;/p&gt;)</li>
-                      <li><u>Selector</u> - in CSS, that which points to the HTML element to be styled.</li>
+                      <li><u>Selector</u> - picks out, or selects, the HTML element to be styled.</li>
                       <li><u>Property</u> - describes how an element is modified, i.e. color, size, or font</li>
                       <li><u>Value</u> - the specific application of the property, i.e. red, 12 pt, or Times New Roman</li>
                     </ol>
@@ -261,10 +259,9 @@
                 <h3>CSS Syntax Basics</h3>
                  <h5>Vocabulary (Continued)</h5>
                     <ol>
-                      <li><u>Class selector</u> - helps to style different elements in the same way.  Syntax is [element]<em>.class</em></li>
-                      <li><u>ID selector</u> - specifies to an even greater level of detail a specific element. Syntax is [element]<em>#id</em></li>
-                      <li><u>Box model</u> - a visual frame of reference for margins around elements</li>
-                    </ol>
+                      <li><u>Class selector</u> - helps to style different elements in the same way.  Syntax is <em>.class</em></li>
+                      <li><u>ID selector</u> - specifies to an even greater level of detail a specific element. Syntax is <em>#id</em></li>
+                      </ol>
               </section>
             </section>
               <section>
@@ -279,11 +276,8 @@
               </section>
               <section>
                     <h3>The Box Model</h3>
-                    <img src="images/boxdim.gif" alt="Box Model" align="middle" height="75%" width="75%"</a>
-              </section>
-              <section>
-                    <h3>Another Way to Look at the Box Model</h3>
-                    <img src="images/adamkayce-web-designer-css-3d-box-model.png" alt="Box Model2" height="65%" width="65%"</a>
+                    <p><u>Box model</u> - a visual frame of reference for margins around elements</p>
+                    <img src="images/boxdim.gif" alt="Box Model" align="middle" height="65%" width="65%"</a>
               </section>
           </section>
   <section id="Connecting HTML to CSS">
